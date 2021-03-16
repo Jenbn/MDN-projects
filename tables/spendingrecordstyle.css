@@ -1,0 +1,31 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border: 10px solid rgb(100,100,100);
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+tbody {
+    font-style: italic;
+    font-size: 95%;
+    text-align: center;
+}
+
+th, td {
+    text-align: center;
+    border: 2px solid rgb(100,100,100);
+    padding: 10px 20px;
+    }
+
+tfoot {
+    text-align: center;
+    font-weight: bold;
+}
+
+caption {
+    padding: 10px;
+}

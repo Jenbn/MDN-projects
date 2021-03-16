@@ -1,0 +1,1 @@
+These projects are based on the examples shown in MDN Mozilla website and they are all about tables
