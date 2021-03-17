@@ -1,0 +1,29 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 10px solid rgb(150, 150, 150);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px 15px;
+    border: 2px solid rgb(150, 150, 150);
+}
+
+th {
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+}
+
+td {
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+}
