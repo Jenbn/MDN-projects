@@ -1,0 +1,37 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(100,100,100);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+caption {
+    padding: 10px;
+}
+
+th, td {
+    text-align: center;
+    border: 2px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    font-weight: bold;
+    background-color: rgb(230,230,230);
+}
+
+thead th:nth-child(11) {
+    width: 20%;
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(247,247,247) ;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(282,282,282) ;
+}
