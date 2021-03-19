@@ -20,10 +20,17 @@ th, td {
 
 th {
     font-weight: bold;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(235, 235, 235);
 }
 
 td {
     text-align: center;
-    background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td { 
+    background-color: rgb(245, 245, 245);
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(255, 255, 255);
 }
