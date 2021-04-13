@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssarrowplease</title>
+    <link href='https://fonts.googleapis.com/css?family=Terminal+Dosis:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="arrowstyle.css">
+</head>
+<body>
+    <a href="" id="banner">
+        <i class="fad fa-book-spells"></i>  New Book:<strong>Programming Is Collaboration</strong> &mdash;On the importance of collaborative focus in software
+    </a>
+        
+    <div id="content" class="clr"> 
+        <div class="description">
+            Create and export CSS code for a custom box with an arrow extending out from the side. Great for tooltips, flyouts and the like.
+        </div>
+
+        <div class="preview-and-configuration">
+            <div class="preview">
+                <div class="arrow-box">
+                    <h1 class="logo">css arrow please!</h1>
+                </div>
+            </div>
+            <form class="configuration">
+                <h2>Arrow configuration</h2>
+                <div class="clr">
+                    <ol class="section positions">
+                        <li>
+                            <label>Position</label>
+                            <label><input type="radio" class="position" name="position" value="top">Top</label>
+                            <label><input type="radio" class="position" name="position" value="right">Right</label>
+                            <label><input type="radio" class="position" name="position" value="bottom">Bottom</label>
+                            <label><input type="radio" class="position" name="position" value="left">Left</label>
+                        </li>
+                    </ol>
+
+                    <ol class="section">
+                        <li>
+                            <label for="size">Size</label>
+                            <input class="size" id="size"><span class="unit">px</span>
+                        </li>
+                        <li>
+                            <label for="color">Color</label>
+                            <input class="color {hash:true, caps:false}"id="color">
+                        </li>
+                    </ol>
+                    <ol class="section">
+                        <li>
+                            <label for="border-width">Border width</label>
+                            <input class="border-width" id="border-width"><span class="unit">px</span>
+                        </li>
+                        <li>
+                            <label for="border-color">Border color</label>
+                            <input class="border-color color {hash:true, caps:false}" id="border-color">
+                        </li>
+                    </ol>
+                </div>
+            </form>
+        </div>
+
+        <div class="pseudoclass">
+            <code class="code" readonly="readonly"></code>
+            <div class="copy-code"></div>
+        </div>
+            
+        <a class="fork ir" href="https://github.com/hojberg/cssarrowplease">Fork me on Github</a>
+    </div>
+
+<footer id="footer">
+    <span>&copy; 2016-2020 By</span> <a href="">Simon Hojberg</a>
+    <span>&middot; Follow me on twitter: </span><a href="">@shojberg</a>
+    <span>&middot; Checkout the source on </span><a href="">Github</a>
+    <span>&middot;</span>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://cssarrowplease.com" data-text="Simple way to create CSS arrows for tooltips and the like" data-via="shojberg">Tweet</a>
+</footer>
+
+
+</body>
+</html>
+
+<!--
+    <div class="pseudoclass">
+         <table >
+                    <tr>
+                        <th scope="col">.arrow_box {</th>
+                        <td>position: relative;</td>
+                        <td>background: #88b7d5;</td>
+                        <td>border: 4px solid #c2e1f5;</td>
+                        <td>}</td>
+                    </tr>
+            
+                    <tr>
+                        <th scope="col">.arrow_box:after, .arrow_box:before {</th>
+                        <td>bottom: 100%;</td>
+                        <td>left: 50%;</td>
+                        <td>content: "";</td>
+                        <td>height: 0;</td>
+                        <td>width: 0;</td>
+                        <td>position: absolute;</td>
+                        <td>pointer-events: none;</td>
+                        <td>}</td>
+                    </tr>
+        
+                    <tr>
+                        <th scope="col">.arrow_box:after {</th>
+                        <td>border-color: rgba(136, 183, 213, 0);</td>
+                        <td>border-top-color: #88b7d5;</td>
+                        <td>border-width: 30px;</td>
+                        <td>margin-left: -30px;</td>
+                        <td>}</td>
+                    </tr>
+        
+                    <tr>
+                        <th scope="col">.arrow_box:before {</th>
+                        <td>border-color: rgba(194, 225, 245, 0);</td>
+                        <td>border-top-color: #c2e1f5;</td>
+                        <td>border-width: 36px;</td>
+                        <td>margin-left: -36px;</td>
+                        <td>}</td>
+                    </tr>
+                </table>
+    </div>
+-->
