@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+body {
+  padding: 1em;
+  height: 2000px;
+}
+
+html {
+  background-color: yellow;
+  font-family: sans-serif;
+}
+
+span {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+p {
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(./images/bgtile.png);
+  padding: 1%;
+  overflow: auto;
+}
+
+article pre {
+  height: 800px;
+}
+
+.fixed,
+.scroll {
+  margin-right: 1%;
+}
+.scroll {
+  background-attachment: scroll;
+}
+
+.fixed {
+  background-attachment: fixed;
+}
+
+.local {
+  background-attachment: local;
+}
+
+footer {
+  clear: both;
+}
